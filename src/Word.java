@@ -2,9 +2,6 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Arrays;
 
-/**
- * Created by Ernestas on 2015-03-17.
- */
 public class Word {
     public static final int SIZE = 4;
     private byte[] data; // FIXME: make data final?

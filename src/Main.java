@@ -1,8 +1,5 @@
 import javax.swing.*;
 
-/**
- * Created by Robertas on 3/20/2016.
- */
 public class Main {
     public static void main(String[] args) {
 

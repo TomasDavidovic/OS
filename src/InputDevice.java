@@ -3,9 +3,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-/**
- * Created by Ernestas on 2015-03-20.
- */
 public class InputDevice {
 
     private static BufferedReader bufferRead;
