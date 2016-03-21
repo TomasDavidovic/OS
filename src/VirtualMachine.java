@@ -56,19 +56,19 @@ public class VirtualMachine {
         return index;
     }
 
-    public void saveIC(int PC){
-        PMMU.write(Word.intToWord(PC), IC_ADDRESS);
+    public void saveIC(int IC){
+        PMMU.write(Word.intToWord(IC), IC_ADDRESS);
     }
-    public void saveR(int SP){
-        PMMU.write(Word.intToWord(SP), R_ADDRESS);
+    public void saveR(int R){
+        PMMU.write(Word.intToWord(R), R_ADDRESS);
     }
-    public void saveC(int PID){
-        PMMU.write(Word.intToWord(PID), C_ADDRESS);
+    public void saveC(int C){
+        PMMU.write(Word.intToWord(C), C_ADDRESS);
     }
-    public void saveCS(int PID){
-        PMMU.write(Word.intToWord(PID), CS_ADDRESS);
+    public void saveCS(int CS){
+        PMMU.write(Word.intToWord(CS), CS_ADDRESS);
     }
-    public void saveDS(int PID){
-        PMMU.write(Word.intToWord(PID), DS_ADDRESS);
+    public void saveDS(int DS){
+        PMMU.write(Word.intToWord(DS), DS_ADDRESS);
     }
 }
