@@ -6,7 +6,6 @@ import java.io.IOException;
 public class InputDevice {
 
     private static BufferedReader bufferRead;
-    //private static String string = new String("ABCDEFGHI");
 
     public static void openFile() throws FileNotFoundException {
         bufferRead = new BufferedReader(new FileReader("programa1.txt"));
@@ -18,8 +17,6 @@ public class InputDevice {
         String s = bufferRead.readLine();
 
         byte[] bytes = s.getBytes();
-
-        //byte[] bytes = string.getBytes();
 
         Word[] words;
 
@@ -46,7 +43,6 @@ public class InputDevice {
                 words[j].setByte(i++, b);
             }
         }
-
         return words;
     }
 }
